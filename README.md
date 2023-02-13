@@ -1,10 +1,10 @@
 # Weather Map
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/78a3cf4b-6b1d-44d7-a54a-7a52b9ee1cbb/deploy-status)](https://app.netlify.com/sites/weathermap/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70140481-05d6-4342-9ec5-4f2030c634c5/deploy-status)](https://app.netlify.com/sites/weathermap14/deploys)
 
 Weather Map is a forecasting weather App that allows you to get the weather conditions of a location you choose. It depends on the API of OpenWeatherMap website.
 
-You can view the App from [here](https://weathermap.netlify.app/)
+You can view the App from [here](https://weathermap14.netlify.app/)
 
 ![Screenshot](preview.png) 
 
@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/69651552/218345680-e9669a47-a20d-4610-
         npm start
         ```
     - 6- Once the App server is running, visit (localhost:3000) in the browser to view the App and now you can treat with it as shown above in the Demo.
-    - 7- You can also see a live preview of the App from this link (https://weathermap.netlify.app/)
+    - 7- You can also see a live preview of the App from this link (https://weathermap14.netlify.app/)
 
 ## Built With
 
