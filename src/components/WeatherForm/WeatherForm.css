@@ -1,0 +1,45 @@
+form {width: 100%; margin: auto}
+
+form .text_inputs {
+    display: flex;
+}
+
+form input[type= 'text'] {
+    width: 50%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 35px;
+    border-left: 1px solid #777;
+    border-bottom: 1px solid #777;
+    padding: 8px;
+}
+
+form input[type = 'submit'] {
+    display: block;
+    background: #444;
+    color: #fff;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+    padding: 15px;
+    border-radius: 15px;
+    width: 120px;
+    margin: 30px 0;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type = 'submit']:hover {box-shadow: none;}
+
+form .clear {clear: both;}
+
+@media(max-width: 767px) {
+    form input[type = 'text'] {
+        font-size: 16px;
+    }
+}

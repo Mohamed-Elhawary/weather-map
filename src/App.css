@@ -1,0 +1,8 @@
+.App {
+    text-align: center;
+    margin: 50px auto;
+    background: linear-gradient(to bottom, #3D7EAA, #FFE47A);
+    padding: 15px;
+    border-radius: 15px;
+    width: 85%;
+}

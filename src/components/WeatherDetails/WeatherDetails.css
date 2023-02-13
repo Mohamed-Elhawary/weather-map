@@ -1,0 +1,30 @@
+.weather_details p {
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+}
+
+.weather_details p span:first-child {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.weather_details p span + span {
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px;
+    color: #444;
+    font-weight: bold;
+    margin-left: 8px;
+} 
+
+p.error {text-align: center;}
+
+@media (max-width: 767px) {
+    .weather_details p span:first-child {font-size: 16px;}
+}
